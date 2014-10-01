@@ -3,7 +3,7 @@
 ## Getting started
 
 ```sh
-$ git clone ...
+$ git clone git@github.com:pdehaan/node-examples.git
 $ cd node-examples/nunjucks-test
 $ npm install
 $ npm start # aka `node index`
@@ -52,13 +52,13 @@ console.log('"%s"', out);
 
 First, we configure the `nunjucks` object and configure the "views" environment to [auto-escape variables](https://mozilla.github.io/nunjucks/templating.html#autoescaping) using the `autoescape` option which controls if output with dangerous characters are escaped automatically (default is `false`).
 
-Next, we render the ["views/index.html"]() template into a variable, passing in `title`, `name`, `active`, `now`, and `body` variables. The `body` variable contains the raw HTML contents of the ["views/child.html"]() file.
+Next, we render the ["views/index.html"](/nunjucks-test#viewsindexhtml) template into a variable, passing in `title`, `name`, `active`, `now`, and `body` variables. The `body` variable contains the raw HTML contents of the ["views/child.html"](/nunjucks-test#viewschildhtml) file.
 
 Finally, we log the contents of the compiled template into the console.
 
 ### views/index.html
 
-The "views/index.html" file is our main template and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends) the ["views/layout.html"]() template. It also uses the [`block`](https://mozilla.github.io/nunjucks/templating.html#block) tag to define three replaceable blocks of content:
+The "views/index.html" file is our main template and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends) the ["views/layout.html"](https://github.com/pdehaan/node-examples/tree/master/nunjucks-test#viewslayouthtml) template. It also uses the [`block`](https://mozilla.github.io/nunjucks/templating.html#block) tag to define three replaceable blocks of content:
 
 - "body" &mdash; Renders the contents of the `{{body}}` variable and turns off auto-escaping using the [`safe`](https://mozilla.github.io/nunjucks/templating.html#autoescaping) filter.
 - "left" and "right" &mdash; Renders a few variables.
