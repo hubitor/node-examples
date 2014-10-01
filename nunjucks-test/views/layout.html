@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ title }}</title>
+</head>
+<body>
+
+  <div class="container">
+    {% include "nav.html" %}
+
+    {% block header %}
+      <p>This is the default content, {{ name }}.</p>
+    {% endblock %}
+
+    {% block body %}
+    {% endblock %}
+
+    <hr/>
+
+    <section class="left">
+      {% block left %}{% endblock %}
+    </section>
+
+    <section class="right">
+      {% block right %}
+        <p>This is more content</p>
+      {% endblock %}
+    </section>
+  </div>
+
+</body>
+</html>

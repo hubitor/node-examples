@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  {{ body | safe }}
+{% endblock %}
+
+{% block left %}
+  <p>This is the left side, {{ name }}!</p>
+  <p>active? {{ active }}</p>
+{% endblock %}
+
+{% block right %}
+  <p>{{ name }}, this is the right side!</p>
+  <p>Current epoch time is {{ now }}.</p>
+{% endblock %}

@@ -1,0 +1,18 @@
+{
+  "name": "nunjucks-test",
+  "description": "Testing nunjucks template inheritence.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/node-examples/issues",
+  "dependencies": {
+    "nunjucks": "1.1.0"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples/blob/master/nunjucks-test",
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/node-examples",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  }
+}
