@@ -1,4 +1,3 @@
-node-examples
-=============
+# node-examples
 
-Just a bunch of Node examples
+Just a bunch of Node examples.
