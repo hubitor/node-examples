@@ -58,7 +58,7 @@ Finally, we log the contents of the compiled template into the console.
 
 ### views/index.html
 
-The "views/index.html" file is our main template and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends) the ["views/layout.html"](https://github.com/pdehaan/node-examples/tree/master/nunjucks-test#viewslayouthtml) template. It also uses the [`block`](https://mozilla.github.io/nunjucks/templating.html#block) tag to define three replaceable blocks of content:
+The "views/index.html" file is our main template and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends) the ["views/layout.html"](/nunjucks-test#viewslayouthtml) template. It also uses the [`block`](https://mozilla.github.io/nunjucks/templating.html#block) tag to define three replaceable blocks of content:
 
 - "body" &mdash; Renders the contents of the `{{body}}` variable and turns off auto-escaping using the [`safe`](https://mozilla.github.io/nunjucks/templating.html#autoescaping) filter.
 - "left" and "right" &mdash; Renders a few variables.
@@ -83,7 +83,7 @@ The "views/index.html" file is our main template and [`extends`](https://mozilla
 
 ### views/layout.html
 
-The "views/layout.html" file is the root template and defines the general structure of our HTML document. In this template we use the [`include`](https://mozilla.github.io/nunjucks/templating.html#include) tag to include the ["views/nav.html"]() file into the template.
+The "views/layout.html" file is the root template and defines the general structure of our HTML document. In this template we use the [`include`](https://mozilla.github.io/nunjucks/templating.html#include) tag to include the ["views/nav.html"](/nunjucks-test#viewsnavhtml) file into the template.
 
 Next we define the "header", "body", "left", and "right" blocks.
 
@@ -124,7 +124,7 @@ Next we define the "header", "body", "left", and "right" blocks.
 
 ### views/nav.html
 
-Included via the `{% include "nav.html" %}` tag in ["views/layout.html"]().
+Included via the `{% include "nav.html" %}` tag in ["views/layout.html"](/nunjucks-test#viewslayouthtml).
 
 ```html
 <nav>
@@ -137,7 +137,7 @@ Included via the `{% include "nav.html" %}` tag in ["views/layout.html"]().
 
 ### views/child.html
 
-Included via `readFile('views/child.html')` in the ["/index.js"]() file.
+Included via `readFile('views/child.html')` in the ["/index.js"](/nunjucks-test#indexjs) file.
 
 ```html
 <section>
