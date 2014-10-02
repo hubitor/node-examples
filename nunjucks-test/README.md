@@ -24,7 +24,7 @@ $ npm start # aka `node index`
     └── nav.html
 ```
 
-### index.js
+### [index.js](/nunjucks-test/index.js)
 
 The following example shows how you can load and parse templates in Node.js using [Nunjucks](https://mozilla.github.io/nunjucks/).
 
@@ -56,7 +56,7 @@ Next, we render the ["views/index.html"](/nunjucks-test#viewsindexhtml) template
 
 Finally, we log the contents of the compiled template into the console.
 
-### views/index.html
+### [views/index.html](/nunjucks-test/views/index.html)
 
 The "views/index.html" file is our main template and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends) the ["views/layout.html"](/nunjucks-test#viewslayouthtml) template. It also uses the [`block`](https://mozilla.github.io/nunjucks/templating.html#block) tag to define three replaceable blocks of content:
 
@@ -81,7 +81,7 @@ The "views/index.html" file is our main template and [`extends`](https://mozilla
 {% endblock %}
 ```
 
-### views/layout.html
+### [views/layout.html](/nunjucks-test/views/layout.html)
 
 The "views/layout.html" file is the root template and defines the general structure of our HTML document. In this template we use the [`include`](https://mozilla.github.io/nunjucks/templating.html#include) tag to include the ["views/nav.html"](/nunjucks-test#viewsnavhtml) file into the template.
 
@@ -122,7 +122,7 @@ Next we define the "header", "body", "left", and "right" blocks.
 </html>
 ```
 
-### views/nav.html
+### [views/nav.html](/nunjucks-test/views/nav.html)
 
 Included via the `{% include "nav.html" %}` tag in ["views/layout.html"](/nunjucks-test#viewslayouthtml).
 
@@ -135,7 +135,7 @@ Included via the `{% include "nav.html" %}` tag in ["views/layout.html"](/nunjuc
 </nav>
 ```
 
-### views/child.html
+### [views/child.html](/nunjucks-test/views/child.html)
 
 Included via `readFile('views/child.html')` in the ["/index.js"](/nunjucks-test#indexjs) file.
 
