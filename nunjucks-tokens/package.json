@@ -1,0 +1,27 @@
+{
+  "name": "nunjucks-tokens",
+  "description": "Testing custom Nunjucks tokens for variables.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/node-examples/issues",
+  "dependencies": {
+    "nunjucks": "1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "0.8.2"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples/tree/master/nunjucks-tokens",
+  "keywords": [
+    "nunjucks",
+    "tags",
+    "variableStart",
+    "variableEnd"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/node-examples",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  }
+}
