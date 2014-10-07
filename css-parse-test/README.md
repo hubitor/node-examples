@@ -1,6 +1,6 @@
 # css-parse-test
 
-The following example shows how you can write a simple linter to check CSS rule names contain a certain set of characters using the [css]() module.
+The following example shows how you can write a simple linter to check CSS rule names contain a certain set of characters using the [css](https://github.com/reworkcss/css) module.
 
 ## Setup
 
