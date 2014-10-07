@@ -1,0 +1,25 @@
+{
+  "name": "css-parse-test",
+  "version": "1.0.0",
+  "description": "Tests parsing CSS and validating rule names.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  },
+  "keywords": [
+    "css",
+    "parse",
+    "stylesheet",
+    "rules",
+    "selectors"
+  ],
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "license": "WTFPL",
+  "dependencies": {
+    "css": "2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "0.8.2"
+  }
+}
