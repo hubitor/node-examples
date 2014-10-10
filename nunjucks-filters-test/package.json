@@ -1,0 +1,32 @@
+{
+  "name": "nunjucks-filters-test",
+  "version": "1.0.0",
+  "description": "Testing nunjucks filters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdehaan/node-examples"
+  },
+  "keywords": [
+    "nunjucks",
+    "filters"
+  ],
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/pdehaan/node-examples/issues"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples",
+  "dependencies": {
+    "humanize-duration": "2.0.1",
+    "moment": "2.8.3",
+    "nunjucks": "1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "0.8.2"
+  }
+}

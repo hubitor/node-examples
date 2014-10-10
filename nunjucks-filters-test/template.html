@@ -1,0 +1,27 @@
+<h1>Filters test</h1>
+
+<dl>
+  <dt><code>startDate</code>:</dt>
+  <dd>{{ startDate }}</dd>
+
+  <dt><code>startDate | <em>date</em></code>:</dt>
+  <dd>{{ startDate | date }}</dd>
+
+  <dt><code>startDate | <em>datestr</em></code>:</dt>
+  <dd>{{ startDate | datestr }}</dd>
+
+  <dt><code>startDate | <em>fromNow</em></code>:</dt>
+  <dd>{{ startDate | fromNow }}</dd>
+
+  <dt><code>startDate | <em>datediff(endDate)</em></code>:</dt>
+  <dd>{{ startDate | datediff(endDate) }}</dd>
+
+  <dt><code>minVal | <em>datediff(maxVal)</em></code>:</dt>
+  <dd>{{ minVal | datediff(maxVal) }}</dd>
+
+  <dt><code>endDate | <em>humanizeDuration</em></code>:</dt>
+  <dd>{{ endDate | humanizeDuration }}</dd>
+
+  <dt><code>startDate | <em>datediff(endDate) | humanizeDuration</em></code>:</dt>
+  <dd>{{ startDate | datediff(endDate) | humanizeDuration }}</dd>
+</dl>
