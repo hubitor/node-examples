@@ -3,7 +3,6 @@
 var moment = require('moment');
 var humanizeDuration = require('humanize-duration');
 
-
 module.exports = function (env) {
   // Define our custom filters.
   env.addFilter('date', function (date) {

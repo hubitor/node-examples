@@ -1,7 +1,7 @@
 'use strict';
 
 var nunjucks = require('nunjucks');
-var filters = require('./filters');
+var filters = require('./filters2');
 
 // Create a custom Nunjucks environment.
 var env = new nunjucks.Environment(new nunjucks.FileSystemLoader());
