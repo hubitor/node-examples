@@ -1,0 +1,26 @@
+{
+  "name": "moment-duration-test",
+  "description": "Testing moment.duration() function.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/node-examples/issues",
+  "dependencies": {
+    "moment": "2.8.3"
+  },
+  "devDependencies": {
+    "eslint": "0.8.2"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples",
+  "keywords": [
+    "moment",
+    "duration",
+    "humanize"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/node-examples",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  }
+}
