@@ -4,7 +4,7 @@ The following example shows how you can create a custom renderer for the [**mark
 
 ---
 
-## [index.js](/index.js)
+## [index.js](index.js)
 
 The following example shows the default header tag (`<h1>` - `<h6>`) behavior of the **marked** library:
 
@@ -24,7 +24,7 @@ console.log(output);
 
 ---
 
-## [index2.js](/index2.js)
+## [index2.js](index2.js)
 
 The following example shows how you can create a custom renderer to remove the `id` attribute from the header tags.
 
@@ -51,9 +51,9 @@ console.log(output);
 
 ---
 
-## [index3.js](/index3.js)
+## [index3.js](index3.js)
 
-The following example shows how you can factor out the custom renderer into a separate module, [_lib/marked3.js_](/lib/marked3.js):
+The following example shows how you can factor out the custom renderer into a separate module, [_lib/marked3.js_](lib/marked3.js):
 
 ```js
 'use strict';
@@ -72,7 +72,7 @@ fs.readFile('test.md', 'utf8', function (err, data) {
 });
 ```
 
-### [lib/marked3.js](/lib/marked3.js)
+### [lib/marked3.js](lib/marked3.js)
 
 ```js
 'use strict';
