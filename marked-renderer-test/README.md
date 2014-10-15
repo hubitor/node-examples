@@ -4,7 +4,7 @@ The following example shows how you can create a custom renderer for the [**mark
 
 ---
 
-## [index.js](/index.js)
+## <index.js>
 
 The following example shows the default header tag (`<h1>` - `<h6>`) behavior of the **marked** library:
 
