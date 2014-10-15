@@ -1,30 +1,26 @@
 {
   "name": "marked-renderer-test",
-  "version": "1.0.0",
   "description": "marked custom heading renderer test",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pdehaan/node-examples"
-  },
-  "keywords": [
-    "marked",
-    "renderer",
-    "heading"
-  ],
+  "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
-  "license": "WTFPL",
-  "bugs": {
-    "url": "https://github.com/pdehaan/node-examples/issues"
-  },
-  "homepage": "https://github.com/pdehaan/node-examples",
+  "bugs": "https://github.com/pdehaan/node-examples/issues",
   "dependencies": {
     "marked": "0.3.2"
   },
   "devDependencies": {
     "eslint": "0.8.2"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples",
+  "keywords": [
+    "marked",
+    "renderer",
+    "heading"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/node-examples",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
   }
 }
