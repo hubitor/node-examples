@@ -10,7 +10,7 @@
   "devDependencies": {
     "eslint": "0.8.2"
   },
-  "homepage": "https://github.com/pdehaan/node-examples",
+  "homepage": "https://github.com/pdehaan/node-examples/tree/master/marked-renderer-test",
   "keywords": [
     "marked",
     "renderer",
@@ -20,7 +20,7 @@
   "main": "index.js",
   "repository": "pdehaan/node-examples",
   "scripts": {
-    "start": "node index",
+    "start": "node index2",
     "test": "eslint ."
   }
 }
