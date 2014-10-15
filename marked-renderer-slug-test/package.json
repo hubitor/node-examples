@@ -1,0 +1,26 @@
+{
+  "name": "marked-renderer-slug-test",
+  "description": "Testing heading slugs in marked",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/node-examples/issues",
+  "dependencies": {
+    "marked": "0.3.2",
+    "slug": "0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "0.8.2"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples",
+  "keywords": [
+    "marked",
+    "renderer",
+    "slug"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/node-examples",
+  "scripts": {
+    "test": "eslint ."
+  }
+}
