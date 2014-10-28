@@ -1,0 +1,28 @@
+{
+  "name": "promises-vs-async",
+  "description": "Testing promises vs async.queue flows",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/node-examples/issues",
+  "dependencies": {
+    "async": "0.9.0",
+    "promise": "6.0.1"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples",
+  "keywords": [
+    "promises",
+    "then",
+    "async",
+    "queue"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/node-examples",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "0.9.1"
+  }
+}
