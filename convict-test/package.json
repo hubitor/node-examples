@@ -1,0 +1,28 @@
+{
+  "name": "convict-test",
+  "description": "Testing convict module.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/node-examples/issues",
+  "dependencies": {
+    "convict": "0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "0.9.2"
+  },
+  "homepage": "https://github.com/pdehaan/node-examples",
+  "keywords": [
+    "convict",
+    "config"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/node-examples",
+  "scripts": {
+    "start": "node index",
+    "start-prod": "NODE_ENV=production npm start",
+    "start-dev": "NODE_ENV=development npm start",
+    "start-test": "NODE_ENV=test npm start",
+    "test": "eslint ."
+  }
+}
