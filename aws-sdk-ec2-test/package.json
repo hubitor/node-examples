@@ -10,7 +10,10 @@
   "author": "Peter deHaan (http://nodeexamples.com/)",
   "license": "WTFPL",
   "dependencies": {
-    "aws-sdk": "2.1.8"
+    "aws-sdk": "2.1.8",
+    "canonical-json": "0.0.4",
+    "json-mask": "0.3.2",
+    "promise": "6.1.0"
   },
   "devDependencies": {
     "eslint": "0.13.0"
